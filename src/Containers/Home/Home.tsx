@@ -1,5 +1,5 @@
 import {
-	Box, Card, CardContent, CardActions, Button, Typography,
+	Box, Card, CardContent, CardActions, Button, Typography, Link,
 } from '@mui/material'
 
 import './Home.css'
@@ -20,7 +20,7 @@ const Home = () => {
 					<Typography variant='body2'>Field Service Request Management</Typography>
 				</CardContent>
 				<CardActions>
-					<Button size='small'>Lets Go</Button>
+					<Link href='/create'>Create Request</Link>
 				</CardActions>
 			</Card>
 		</Box>
