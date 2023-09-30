@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Home from './Containers/Home/Home.tsx'
 import Create from './Containers/Create/Create.tsx'
+import View from './Containers/View/View.tsx'
 import ErrorPage from './error.tsx'
 
 import './index.css'
@@ -15,6 +16,9 @@ const router = createBrowserRouter([
 	},
 	{
 		path: '/create', element: <Create />, errorElement: <ErrorPage />,
+	},
+	{
+		path: '/view', element: <View />, errorElement: <ErrorPage />,
 	},
 ])
 
