@@ -1,4 +1,4 @@
-# Deno Project for Job Application
+# Demo Project for Job Application
 
 This is a Demo project for a job application. It is a simple web application that allows users to create and manage their own notes.
 Application Task:
